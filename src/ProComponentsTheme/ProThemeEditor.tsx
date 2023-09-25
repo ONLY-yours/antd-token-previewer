@@ -10,7 +10,7 @@ import React, {
   useMemo,
   useState,
 } from 'react';
-import ComponentTokenEditor from '../component-token-editor';
+import ComponentTokenEditor from '../component-token-editor/ProTokenEditer';
 import { AdvancedContext } from '../context';
 import type { EditorModalProps } from '../editor-modal';
 import EditorModal from '../editor-modal';

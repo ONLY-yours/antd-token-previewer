@@ -86,7 +86,6 @@ const GlobalTokenEditor: FC<GlobalTokenEditorProps> = (props) => {
         />
       </div>
       {children || (
-        // <ProComponentsDemo/>
         <ComponentDemoPro
           theme={theme}
           style={{ flex: 1, overflow: 'auto', height: '100%' }}

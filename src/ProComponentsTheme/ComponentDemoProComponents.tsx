@@ -80,8 +80,6 @@ export type ComponentDemoProProps = {
 };
 
 const Demo = ({ mode, theme }: { mode: DemoMode; theme: Theme }) => {
-  const { token } = antdTheme.useToken();
-
   return (
     <ConfigProvider theme={{ ...theme.config, inherit: false }}>
       <div>
@@ -101,18 +99,7 @@ const Demo = ({ mode, theme }: { mode: DemoMode; theme: Theme }) => {
         ) : (
           <>
             <ProComponentsDemo />
-            {/* <AppDemo/> */}
           </>
-          // <AppDemo
-          //   style={{
-          //     width: 1440,
-          //     height: 'calc(100% - 20px)',
-          //     boxShadow: token.boxShadowTertiary,
-          //     borderRadius: token.marginXS,
-          //     overflow: 'hidden',
-          //     border: `1px solid ${token.colorBorder}`,
-          //   }}
-          // />
         )}
       </div>
     </ConfigProvider>
