@@ -5,6 +5,7 @@ export { default as PreviewDemo } from './PreviewDemo';
 export type { PreviewDemoProps } from './PreviewDemo';
 export { default as Previewer } from './previewer';
 export * from './previews/overviews';
+export { default as ProThemeEditor } from './ProComponentsTheme/ProThemeEditor';
 export { default as ThemeEditor } from './ThemeEditor';
 export type { ThemeEditorProps, ThemeEditorRef } from './ThemeEditor';
 export { default as TokenPanel } from './token-panel';
